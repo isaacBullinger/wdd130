@@ -1,0 +1,30 @@
+img {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+  }
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+h1:hover {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+body{
+  background-color: pink;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+  display: inline;
+}
+  
