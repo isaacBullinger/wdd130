@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto+Condensed&family=Roboto:wght@100&family=Rowdies:wght@300&display=swap');
+
 body {
     background-color: #5798b2;
+    font-family: 'Rowdies', 'Helvetica', 'sans-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 #background {
@@ -11,6 +17,10 @@ body {
     background-color: #9ee5dd;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -22,6 +32,10 @@ body {
     text-align: center;
 }
 
+.card-img {
+    border: 10px solid #e45c3a;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -29,6 +43,8 @@ body {
 
 footer {
     background-color: #b2945b;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -48,12 +64,30 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 header {
     background-color:rgba(158, 229, 221, .7);
 }
 
+h1 {
+    font-family: 'Kanit', 'Roboto', 'sans-serif';
+}
+
+h2 {
+    font-family: 'Kanit', 'Roboto', 'sans-serif';
+    margin: 0;
+}
+
 h4 {
     color: white;
+    font-family: 'Kanit', 'Roboto', 'sans-serif';
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -62,36 +96,59 @@ h4 {
 
 .home-title {
     color:white;
+    font-family: 'Rowdies', 'Helvetica', 'sans-serif';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
     width: 80px;
 }
 
-main {
+#logo_link {
+    padding-top: 5px;
+}
+
+main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+.mountains {
+    padding-bottom: 200px;
+    padding-top: 100px;
 }
 
 .msg {
     background-color: #e45c3a;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: black;
+    font-family: 'Rowdies', 'Helvetica', 'sans-serif';
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 nav a {
     text-align: center;
     color:black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -99,7 +156,6 @@ nav a:hover {
     color:white;
 }
 
-
-
-
-
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
