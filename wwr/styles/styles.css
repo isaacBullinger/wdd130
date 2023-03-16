@@ -203,6 +203,7 @@ main section img {
 nav {
     display: flex;
     justify-content: space-around;
+    padding: 35px;
 }
              
 
