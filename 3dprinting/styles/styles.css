@@ -152,7 +152,7 @@ nav a:hover {
     display: block;
     width: 500px;
     border: 50px solid #b84d05;
-    margin: 0% 32%;
+    margin: 0% 30%;
     margin-bottom: 100px;
     z-index: -1;
 }
@@ -192,7 +192,7 @@ nav a:hover {
 
 #printers-msg {
     text-align: center;
-    margin-top: 65px;
+    margin: 65px 0px;
 }
 
 .terms {
