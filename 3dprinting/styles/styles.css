@@ -143,12 +143,12 @@ nav a:hover {
     color:black;
 }
 
-#overlap {
+.overlap {
     margin-bottom: -75px;
     z-index: 3;
 }
 
-#printers-img {
+.printers-img {
     display: block;
     width: 500px;
     border: 50px solid #b84d05;
