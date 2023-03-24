@@ -4,7 +4,7 @@
 
 body {
     background-color: #494647;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Teko, 'Nova Square', Helvetica, sans-serif;
     font-size: 22px;
     color: #f3fcf0 ;
     margin: 0;
@@ -112,6 +112,7 @@ h4 {
     text-align: left;
     margin: 25px 10%;
     line-height: 1.5em;
+    font-size: 1.5em;
 }
 
 .logo {
@@ -153,7 +154,7 @@ nav a:hover {
     width: 500px;
     border: 50px solid #b84d05;
     margin: 0 auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     z-index: -1;
 }
 
@@ -174,8 +175,9 @@ nav a:hover {
     margin: 0 auto;
     padding-left: 25%;
     padding-right: 25%;
-    font-size: 1em;
-    margin-bottom: 200px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 100px;
 }
 
 #printers-kp3s p {
@@ -183,7 +185,8 @@ nav a:hover {
     margin: 0 auto;
     padding-left: 25%;
     padding-right: 25%;
-    font-size: 1em;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 
 #printers-ender3 h2 {
@@ -207,7 +210,8 @@ nav a:hover {
 .terms-par {
     text-align: left;
     margin-right: 20%;
-    line-height: 1.5em;
+    line-height: 1em;
+    font-size: 1.5em;
     grid-row: 4/5;
     grid-column: 2/3;
     margin-top: -150px;
@@ -250,6 +254,21 @@ nav a:hover {
     }
     footer {
         margin-top: 25px;
+    }
+    #printers-ender3 p {
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 1em;
+        margin-bottom: 200px;
+    }
+    #printers-kp3s p {
+        text-align: left;
+        margin: 0 auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 1em;
     }
     .thinker {
         margin-top: 50px;
