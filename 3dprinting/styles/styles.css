@@ -4,7 +4,7 @@
 
 body {
     background-color: #494647;
-    font-family: Teko, 'Nova Square', Helvetica, sans-serif;
+    font-family: 'Nova Square', Teko, Helvetica, sans-serif;
     font-size: 22px;
     color: #f3fcf0 ;
     margin: 0;
@@ -175,7 +175,7 @@ nav a:hover {
     margin: 0 auto;
     padding-left: 25%;
     padding-right: 25%;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.5em;
     margin-bottom: 100px;
 }
@@ -185,7 +185,7 @@ nav a:hover {
     margin: 0 auto;
     padding-left: 25%;
     padding-right: 25%;
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.5em;
 }
 
