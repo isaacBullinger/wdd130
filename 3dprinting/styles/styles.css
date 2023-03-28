@@ -248,7 +248,7 @@ h4 {
     text-align: left;
     margin: 25px 10%;
     line-height: 1.5em;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .logo {
@@ -347,7 +347,7 @@ nav a:hover {
     text-align: left;
     margin-right: 20%;
     line-height: 1em;
-    font-size: 1.5em;
+    font-size: 1em;
     grid-row: 4/5;
     grid-column: 2/3;
     margin-top: -150px;
@@ -378,6 +378,11 @@ nav a:hover {
     .stl-card {
         display: block;
     }
+    .stl-card p {
+        margin: 0 auto;
+        margin-top: 260px;
+        padding-top: 100px;
+    }
     .slicer-card {
         display: block;
     }
@@ -402,8 +407,19 @@ nav a:hover {
         display: block;
         margin-top: -10px;
     }
+    .infill-card p {
+        margin: 0 auto;
+        margin-top: 125px;
+        padding-top: 100px;
+    }
     .support-card {
         display: block;
+    }
+    .support-card p {
+        margin: 0 auto;
+        margin-top: 240px;
+        padding-top: 100px;
+        margin-bottom: 100px;
     }
     #hero {
         margin-top: 0;
@@ -438,6 +454,7 @@ nav a:hover {
         padding-left: 10%;
         padding-right: 10%;
         font-size: 1em;
+        margin-bottom: 100px;
     }
     .thinker {
         margin-top: 50px;
