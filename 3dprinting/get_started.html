@@ -20,41 +20,45 @@
             </nav>
         </header>
 <main class="get-started-grid">
-    <div id="get-started-hero">
+    <div id="get-started-title">
         <h1>Get Started</h1>
     </div>
-    <section class="get-started-info">
-        <div><h2>STL</h2>
+    <section class="stl-card">
         <img src="images/stl.jpg" alt="3D STL File">
+        <div class="stl-text"><h2>STL</h2>
         </div>
             <p>Stereolithography, or STL is the file format for a 3D file. It consists of a physical object made of thousands of triangles. This file must be converted into code that can be interpreted by the printer. The code that sends commands to the printer to make the movements, heat the plastic to the right temperature, extrude the plastic, and run the cooling fans to print the object is called gcode.</p>
     </section>
-    <section class="get-started-info">
-        <div><h2>Slicer</h2>
+    <section class="slicer-card">
         <img src="images/slicer.jpg" alt="Red boat with lines">
+        <div class="slicer-text"><h2>Slicer</h2>
         </div>
             <p>A slicer is the software that “slices” the STL file into individual layers that the 3D printer prints. Two excellent options are Ultimaker Cura and Prusa’s Slic3r. To slice a file, drag it from your computer into the slicer and click on the slice button. Temperature is the temperature the plastic is heated to for melting it. The table below shows the temperatures for the most common materials:</p>
     </section>
-    <section>
-        <div id="3d-file">
-        <img src="images/file-logo.png" alt="3D file logo">
+    <div id="get-started-middle">
+        <div id="file">
+            <a href="https://www.thingiverse.com/">
+                <img src="images/file-logo1.png" alt="3D file logo">
+            </a>
         </div>
         <div id="slicer">
-        <img src="images/slicer-logo.png" alt="Sliced cube logo">
+            <a href="https://ultimaker.com/software/ultimaker-cura">
+                <img src="images/slicer-logo1.png" alt="Sliced cube logo">
+            </a>
         </div>
         <div id="table">
-        <img src="images/table.png" alt="Nozzle and bed temperature table">
+            <img src="images/table.png" alt="Nozzle and bed temperature table">
         </div>
-    </section>
-    <section class="get-started-info">
-        <div><h2>Slicer</h2>
+    </div>
+    <section class="infill-card">
         <img src="images/infill.jpg" alt="Infill patterns">
+        <div class="infill-text"><h2>Infill</h2>
         </div>
             <p>There are many settings you can change in the slicer. The main ones are the infill, support settings, and material temperature. Infill is the material that fills the part. A picture of the different types of infill is shown above.</p>
     </section>
-    <section class="get-started-info">
-        <div><h2>Slicer</h2>
+    <section class="support-card">
         <img src="images/support.jpg" alt="Support example">
+        <div class="support-text"><h2>Support</h2>
         </div>
             <p>Supports are printed to support the object because the printer cannot print on thin air. A picture of supports broken off is shown above.</p>
     </section>
@@ -75,5 +79,6 @@
         </a>
     </div>
 </footer>
+</div>
 </body>
 </html>
