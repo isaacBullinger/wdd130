@@ -460,10 +460,14 @@ nav a:hover {
         margin-top: 50px;
         width: 900px;
     }
+    .terms {
+        margin-top: 100px;
+    }
     .terms-par {
         text-align: left;
         margin: 20%;
         line-height: 1.5em;
+        margin-top: 50px;
     }
 }
             
