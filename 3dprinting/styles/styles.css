@@ -119,19 +119,29 @@ footer .social img {
         #file {
             display: grid;
             width: 100px;
-            column-gap: 10px;
             grid-column: 1/2;
             grid-row: 3/4;
             margin-left: 35%;
+            transition: margin-top .15s, margin-left .15s;
         }
+
+        /* #file:hover {
+            margin-top: 4px;
+            margin-left: 36%;
+        } */
 
         #slicer {
             display: grid;
-            column-gap: 10px;
             grid-column: 2/3;
             grid-row: 3/4;
             margin-right: 15%;
+            transition: margin-top .15s, margin-left .15s;
         }
+
+        /* #slicer:hover {
+            margin-top: 1%;
+            margin-left: 1%;
+        } */
 
         #table {
             display: grid;
@@ -294,9 +304,12 @@ nav a:hover {
     z-index: -1;
 }
 
+.printers-img:hover {
+    opacity: .7;
+}
+
 #printers-ender3 {
     text-align: center;
-    grid-row: 1/2;
     margin: 0 auto;
 }
 
@@ -391,12 +404,22 @@ nav a:hover {
         padding: 50px;
     }
     #file {
-        display: block;
+    display: block;
+    transition: margin-top .15s, margin-left .15s;
+    }
+    #file:hover {
+        margin-top: 4px;
+        margin-left: 36%;
     }
     #slicer {
         display: block;
         margin: 10%;
         margin-left: 35%;
+        transition: margin-top .15s, margin-left .15s;
+    }
+    #slicer:hover {
+        margin-top: 11%;
+        margin-left: 36%;
     }
     #table {
         display: block;
