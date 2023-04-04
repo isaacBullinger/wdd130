@@ -122,26 +122,14 @@ footer .social img {
             grid-column: 1/2;
             grid-row: 3/4;
             margin-left: 35%;
-            transition: margin-top .15s, margin-left .15s;
         }
-
-        /* #file:hover {
-            margin-top: 4px;
-            margin-left: 36%;
-        } */
 
         #slicer {
             display: grid;
             grid-column: 2/3;
             grid-row: 3/4;
             margin-right: 15%;
-            transition: margin-top .15s, margin-left .15s;
         }
-
-        /* #slicer:hover {
-            margin-top: 1%;
-            margin-left: 1%;
-        } */
 
         #table {
             display: grid;
@@ -390,36 +378,37 @@ nav a:hover {
     }
     .stl-card {
         display: block;
+        width: 100%;
     }
     .stl-card p {
         margin: 0 auto;
         margin-top: 260px;
         padding-top: 100px;
+        width: 80%;
     }
     .slicer-card {
         display: block;
+        width: 100%;
+    }
+    .slicer-card p {
+        margin: 0 auto;
+        margin-top: 300px;
+        padding-top: 100px;
+        width: 80%;
     }
     #get-started-middle {
         display: block;
-        padding: 50px;
+        margin-bottom: 10%;
+        margin-top: 10%;
     }
     #file {
     display: block;
-    transition: margin-top .15s, margin-left .15s;
-    }
-    #file:hover {
-        margin-top: 4px;
-        margin-left: 36%;
+    margin: 10%;
     }
     #slicer {
         display: block;
+        margin: 0 auto;
         margin: 10%;
-        margin-left: 35%;
-        transition: margin-top .15s, margin-left .15s;
-    }
-    #slicer:hover {
-        margin-top: 11%;
-        margin-left: 36%;
     }
     #table {
         display: block;
@@ -429,20 +418,24 @@ nav a:hover {
     .infill-card {
         display: block;
         margin-top: -10px;
+        width: 100%;
     }
     .infill-card p {
         margin: 0 auto;
         margin-top: 125px;
         padding-top: 100px;
+        width: 80%;
     }
     .support-card {
         display: block;
+        width: 100%;
     }
     .support-card p {
         margin: 0 auto;
         margin-top: 240px;
         padding-top: 100px;
         margin-bottom: 100px;
+        width: 80%;
     }
     #hero {
         margin-top: 0;
@@ -457,11 +450,16 @@ nav a:hover {
         font-size: 25px;
         color: #f3fcf0;
     }
+    .headings {
+        text-align: center;
+        width: 100%;
+    }
     #background {
         display: none;
     }
     footer {
         margin-top: 25px;
+        text-align: center;
     }
     #printers-ender3 p {
         text-align: left;
@@ -470,6 +468,11 @@ nav a:hover {
         padding-right: 10%;
         font-size: 1em;
         margin-bottom: 200px;
+        margin-top: 20px;
+    }
+    .printers-img {
+        width: 60%;
+        margin: 0 auto;
     }
     #printers-kp3s p {
         text-align: left;
@@ -478,19 +481,26 @@ nav a:hover {
         padding-right: 10%;
         font-size: 1em;
         margin-bottom: 100px;
+        margin-top: 20px;
     }
     .thinker {
+        margin: 0 auto;
         margin-top: 50px;
-        width: 900px;
     }
     .terms {
         margin-top: 100px;
     }
     .terms-par {
         text-align: left;
-        margin: 20%;
+        margin: 10%;
         line-height: 1.5em;
         margin-top: 50px;
+    }
+    #table {
+        margin: 0 auto;
+    }
+    .infill-card img {
+        width: 100%;
     }
 }
             
