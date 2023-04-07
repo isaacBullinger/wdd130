@@ -346,6 +346,7 @@ nav a:hover {
 
 .terms-par {
     text-align: left;
+    width: 400px;
     margin-right: 20%;
     line-height: 1em;
     font-size: 1em;
